@@ -1,0 +1,112 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #4a90e2;
+    color: white;
+    gap: 1rem;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+.nav-links a:hover  {       
+    background-color: rgba(255, 255, 255, 0.556);
+    color: #509df4;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(5, 150px);
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color:#f9f9f9;
+    padding: 5px;
+    grid-auto-flow: row;
+    align-content:stretch;
+    justify-content: stretch;
+    align-items: stretch    ;
+}
+.item {
+    background-color: #4a90e2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5 rem;
+    border-radius: 8px;
+}
+.item a:hover  {       
+    background-color: rgba(255, 255, 255, 0.556);
+    color: #509df4;
+}
+
+.item a {
+    display: flex;
+    gap: 1.5rem;
+}
+.item a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+.item a:hover  {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #4a90e2;
+    color: white;
+    gap: 2rem;
+}
+
+/* Add your CSS here to create the product grid layout */
+.grid-container {
+ display:grid;
+ grid-template-columns: repeat(100px,3fr);
+ grid-template-rows: repeat(150px, 6fr);
+ gap: 20px;
+ background-color:antiquewhite;
+ padding:20px;
+ grid-auto-flow:row;
+ align-content:stretch;
+ justify-content:stretch;
+ align-items:stretch;
+}
+
+.product-card {
+background-color: rgb(246, 154, 33);
+color:white;
+display:flex;
+justify-content: center;
+align-items: center;
+font-size: large;
+border-radius: 8px;
+padding: 10px;
+}
+

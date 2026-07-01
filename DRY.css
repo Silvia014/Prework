@@ -1,0 +1,40 @@
+:root {
+  --color-primary: #3498db;
+  --color-primary-dark: #2980b9;
+  --color-text-muted: #7f8c8d;
+  --color-white: #fff;
+  --spacing-sm: 10px;
+  --spacing-md: 20px;
+  --radius-sm: 5px;
+}
+
+/*Card*/
+.title {
+color:var(--color-primary);
+margin-top:var(--spacing-sm);
+}
+.button {
+  background-color: var(--color-primary);
+  padding: var(--color-white);
+  border-radius: var(--radius-sm);
+  color: var(--color-white)
+}
+.button:hover {
+  background-color: var(--color-primary-dark);
+}
+.description {
+  color:var(--color-text-muted);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Header and footer */
+.header {
+  background-color: var(--color-primary);
+  padding: var(--spacing-md);
+  color: var(--color-white);
+}
+.footer {
+  background-color: var(--color-primary-dark);
+  padding: var(--spacing-md);
+  color: var(--color-white);
+}

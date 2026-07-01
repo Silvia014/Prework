@@ -1,0 +1,41 @@
+/* Style the navigation container */
+.nav {
+    background-color: #fafafa; /* Example background color */
+    padding: 10px; /* Example padding */
+    /* add background color and padding here */
+}
+
+/* Style the navigation list */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* remove default list styling and add margin/padding */
+}
+
+/* Style the list items */
+.nav-item {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5; /* Example line height */
+    letter-spacing: 0.5px; /* Example letter spacing */
+    word-spacing: 1px; /* Example word spacing */
+    /* make list items display inline-block and add spacing */
+}
+
+/* Style the links */
+.nav-link {
+    padding: 5px 10px; /* Example padding */
+    color: #bcbcbc; /* Example text color */
+    text-decoration: none; /* remove underline */
+    /* add color, remove underline, and add padding */
+}
+
+/* Add hover effect on links */
+.nav-link:hover {
+    background-color: #717171; /* Example hover background color */
+    color: #ffffff; /* Example hover text color */
+    float: left; /* Example float */
+    /* change background color on hover */
+}

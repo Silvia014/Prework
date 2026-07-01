@@ -1,0 +1,63 @@
+var myFirstBoolean = true;//Boolean
+var myFirstInteger = 35;//Number
+var myFirstFloat = 2323.4545; //Number (with decimals)
+
+var myFirstString = 'Hello World'; //String
+var myFirstObject = {'name' : 'Ramon', 'Age': 32}; //Object with 2 properties
+var myFirstArray = [23,'Hello',8.54,null,544]; //Array of 5 items
+var myFirstNull = null;//Null
+var myFirstUndefined; //Undefined
+
+console.log(myFirstBoolean);
+
+console.log(myFirstInteger);
+console.log(myFirstFloat);
+console.log(myFirstFloat+myFirstInteger);
+
+console.log(myFirstObject);
+console.log(myFirstString);
+console.log(myFirstString+'...'+myFirstObject.name);//String concatenation
+
+console.log(myFirstArray);
+console.log(myFirstNull);
+console.log(myFirstUndefined);
+
+var age = 24;
+
+function printAge(){
+  // La variable age fue declarada afuera de la funcion
+  // pero igualmente esta disponible adentro
+  console.log(age);
+}
+
+printAge();
+
+var weekday = 'thursday';
+
+switch(weekday)
+{
+	case "monday":
+		console.log('Its going to be a long week');
+	break;
+	case "friday":
+		console.log('Party time!');
+	break;
+	default:
+		console.log('Just another boring day....');
+	break;
+
+	}
+
+let Ifeelhitbyatrain=true;
+let Ihavebeenhitbyatrain=false;
+ if(Ihavebeenhitbyatrain===true) 
+ {
+	console.log("youdonthaveflu");
+
+} else {
+	console.log("youhaveflu");
+}
+
+const flu = (Ifeelhitbyatrain && !Ihavebeenhitbyatrain) ? true:false;
+
+let alertHTMLCode= "<div>No puedes conducir</div>";

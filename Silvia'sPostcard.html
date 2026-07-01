@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Silvia's Postcard</title>
+        <style>
+             /*Do not touch below this code*/  
+        
+        .button:hover {
+            background-color: #c0bbb400;
+        }
+        .button {
+        grid-column: 1/-1;
+        grid-row: 3;
+        display: flex;
+        justify-content: center;
+        padding-top: 24px;
+        }
+        .button a{
+           padding: 6px 18px;
+           font-size: 14px;
+           background-color: #d4d0cb;
+          border: 1px solid #999;
+          text-decoration: none;
+          color: black;
+          display:flex;
+          justify-content: flex-end;
+          
+        }
+        .items input::placeholder{
+        color:#aaa;  
+        }
+        .items{
+        grid-column: 2;
+        grid-row: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding-top: 4px;       
+        }
+        .items input{
+        border: none;
+        border-bottom: 1px solid #aaa;
+        outline:none;
+        font-size: 14px;
+        color: #aaa;
+        padding: 4px 0;
+        background: transparent;
+        width: 100%;   
+        }
+        .postcardbody p{
+        font-family: 'comic sans ms', 'chalkboard SE', cursive;
+        font-size: 15px;
+        color: #222;
+        line-height: 1.5;
+        margin-bottom: 20px;        
+        }
+        .postcardbody{
+        grid-column: 1;
+        grid-row: 2;
+        padding-right: 20px
+        }
+        .logoplaceholder{
+        grid-column: 2;
+        grid-row: 1;
+        width: 65px;
+        height: 65px;
+        background-color: #2196f3;
+        clip-path:polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .logo{
+
+        grid-column: 2;
+        grid-row: 1;
+        display:flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        }
+        h1{
+        grid-column:1;
+        grid-row:1;
+        font-family: 'comic sans ms','chalkboard SE', cursive;
+        font-size: 28px;
+        font-weight: normal;
+        color:#222;
+        padding-bottom: 20px;
+        }
+        .postcard{
+        background-color: #ffffff;
+        width: 530px;
+        padding: 30px 30px 30px 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr auto;
+        gap: 0;
+        position: relative;
+        }
+        * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;        
+        }
+        p {
+        display: block;
+        margin-block-start: 1em;  
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0%;
+        unicode-bidi: isolate;    
+        }
+        body {
+        background-color: #1a1a1a;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        min-height: 100vh;
+        font-family: Arial, sans serif;   
+        }
+        </style>
+    </head>
+    <body>
+        <div class="postcard">
+            <div class="logo">
+                 <img src="https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png" alt="Logo 4geeks" style="height: 40px; background-color: rgba(255,255,255,0.8); padding: 2px; border-radius: 2px;">
+            </div>      
+            <h1 class="postcardtitle">My Postcard</h1>
+            <div class="postcardbody">
+            <p> Look how awesome! This is a postcard that I created using HTML5 and CC3 during my 4Geeks Academy Course!</p>
+            <p>This is so cool, can't wait to start doing more stuff!</p>
+            </div>
+            <div class="items">
+                <input type="text" placeholder="Some Name">
+                <input type="email" placeholder="Some Email">
+                <input type="text" placeholder="Some Comment">
+            </div>
+            <div  class="button">
+             <a href="https://education.nationalgeographic.org/resource/beach/" class="button" target="_blank" rel="noopener noreferrer" aria-label="Postcard">Send My Postcard </a>
+             </div>
+        </div>
+     </body>
+</html>

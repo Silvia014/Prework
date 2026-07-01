@@ -1,0 +1,331 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <title>French Polynesia</title>
+        <style>
+            nav {
+                background-color: #07378000;
+                padding: 10px;
+                text-align: right;
+            }
+            nav ul {
+                margin: 0;
+                padding: 0;
+            }
+            nav ul li {
+                list-style: none;
+                display: inline;
+                margin-left: 20px;
+            }
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+            }
+
+            nav ul li:hover  {       
+                background-color: rgba(255, 255, 255, 0.244);
+                color:    #073780ae;
+                font-size: 1rem;}
+            .barra-lateral {
+               position:absolute;
+               top:50px;
+               right:10px;
+               width: 200px;
+               background-color: #07378000;
+               padding: 20px;
+               border-radius: 10px;
+            }
+            nav li {
+
+               list-style: none;
+               margin: 0;
+                padding: 0;
+
+            }
+            nav ul li a:hover {
+                text-decoration: underline overline;
+                background-color: #0737805e;
+                cursor: pointer;   
+            }
+            .logo {
+                display: flex;
+                justify-content: left;
+                margin-top: -30px;
+            }
+            nav .barra-lateral {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 200px;
+                height: 100%;
+                background-color: #073780;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            nav .barra-lateral h2 {
+                color: white;
+                margin-top: 0;
+            }
+            nav .barra-lateral p {
+                color: white;
+            }
+ 
+body {
+background-image: url('frenchpolynesia.webp');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+margin: 0;
+height: 100vh;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 36px;
+    font-family: 'Arial', sans-serif;
+}
+p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 28px;
+    font-family: 'Arial', sans-serif;
+}
+h3 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+}
+.center-content {
+    display: table;
+    text-align: center;
+    color: white;
+    background-color: #0737807a;
+    margin: 10px auto;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.center-content ol, ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+            
+.center-content:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    display: block;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #ffffff19;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto 0;
+}
+
+.button:hover {
+     background-color: #07378021;
+    cursor: pointer;
+
+}
+
+.h3 {
+     margin-top: 30px;
+ }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3,628px);
+    grid-template-rows: repeat(2, 100px);
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color:#f9f9f900;
+    padding: 5px;
+    grid-auto-flow: row;
+    align-content:stretch;
+    justify-content: stretch;
+    align-items: stretch    ;
+
+}
+
+.gallery:hover{
+     cursor: pointer;
+}
+.item {
+    background-color: #07378074;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-size: 1.5 rem;
+    border-radius: 8px;
+}
+.yo{
+    background-color: #07378000;
+    color: white; }  
+
+.item:hover  {       
+    background-color: rgba(255, 255, 255, 0.556);
+    color:#073780ac;
+    font-size: 1rem;}
+
+input{width: 100%;}
+p{margin:0;}
+
+.yo:hover{       
+    background-color: rgba(255, 255, 255, 0);
+    color: #0737806f;
+    font-size: 1rem;}
+
+.item a {
+    display: flex;
+    gap: 1.5rem;
+}
+.item a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    transition: color 0.3s ease;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+.item a:hover  {
+    font-size:1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #073780;
+    color: white;
+   
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.redes a {
+    color: whitesmoke;
+    font-size: 15px;
+    transition: color 0,3s ease;
+
+}
+.redes :hover {
+    text-decoration: underline;
+                background-color: #ffffff4c;
+                cursor: pointer;
+
+}
+.icono  {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+.item h4  {
+    margin:0px;
+    margin-top: 20px;
+}
+button:active {
+  /* Uses the custom image, falls back to 'pointer' if the image fails to load */
+  cursor: url('pngtree-vector-target-icon-png-image_318187.jpg'), pointer; 
+}
+</style>
+</head> 
+<body>
+    <header>
+     <nav>
+        <ul>
+            <li><a href="file:///Users/aibo/Downloads/HTML/islademoorea.jpg">Moorea</a></li>
+            <li><a href="file:///Users/aibo/Downloads/HTML/isladehuahine.jpg">Huaine</a></li>
+            <li><a href="file:///Users/aibo/Downloads/HTML/islademaupiti.webp">Maupiti</a></li>
+            <li><a href="file:///Users/aibo/Downloads/HTML/isladetupai.html">Tupai</a></li>
+        </ul>
+        <div class="logo">
+            <a href="https://sites.google.com/view/sgdatanalytics/inicio?authuser=0" target="_blank" rel="noopener noreferrer" aria-label="Visit my portfolio">
+            <img src="logoSG.png" alt="Logo" style="height: 40px; background-color: rgba(255, 255, 255, 0.8); padding: 2px; border-radius: 2px;">
+            </a>
+        </div>
+    </nav>
+    </header>
+    <main>  
+    <h1><i>French Polynesia</i></h1>
+    <p><h2><i>About the five archipelagos</i></h2></p>
+    <ul class="center-content">
+            <li><b>Society Islands:</b> The most populated and visited group, comprising 14 islands (including Tahiti and Bora Bora).</li>
+            <li><b>Tuamotu Archipelago:</b> An expansive chain featuring 76 low, flat coral atolls.</li>
+            <li><b>Marquesas Islands:</b> A stunning, rugged group of 12 islands known for towering cliffs and rich cultural heritage.</li>
+            <li><b>Austral Islands (Tubuai):</b> A chain of volcanic islands located at the southernmost tip of the territory.</li>
+            <li><b>Gambier Islands:</b> Located at the southeastern edge of the Tuamotus, this small group consists of four large volcanic islands and a few islets.</li>       
+     </ul>
+    <h3 class="h3">Do people live in the French Polynese? Here is a quick look at where and how locals live:</h3>
+    <div class="center-content">
+    <ol>  
+        <li> The population is heavily concentrated in the Society Islands. The capital city is Pape'ete, located on the island of Tahiti, which acts as the economic and cultural center.  </li>
+        <li> The majority of the population (about 80%) is of Polynesian descent, alongside residents of European and Chinese ancestry.</li>
+        <li>Locals are French citizens who enjoy a mix of French and traditional Polynesian cultural influences. The local economy relies heavily on tourism (especially in places like Bora Bora), agriculture, and pearl farming.</li>
+        <li> Life is often characterized by a relaxed "island time," but residents also face challenges like a higher cost of living and isolation from global supply chains.</li>
+    </ol>
+        <p><i> If you are considering relocating, check out about the cost of living and typical housing expenses, daily life and local culture, and traveling around the islands </i></p>
+    <br>
+  </div>   
+    <div class="gallery">
+        <div class="item"><h4>Culture</h4><img src="file:///Users/aibo/Downloads/cultura.png" alt="Culture icon" class="icono" >
+            <p class="yo">Famous local dishes and dietary staples.</p></div>
+        <div class="item"><h4>Demographics</h4><img src="file:///Users/aibo/Downloads/lupa.png" alt="Culture icon" class="icono" >
+            <p class="yo">The primary language used in government and education.</p></div>
+        <div class="item"><h4>Society</h4><img src="file:///Users/aibo/Downloads/business-people.png" alt="Culture icon" class="icono" >
+            <p class="yo">Key cultural or religious groups that shape daily life.</p></div>
+        <div class="item"><h4>Economy</h4><img src="file:///Users/aibo/Downloads/circular-economy.png" alt="Culture icon" class="icono" >
+            <p class="yo"> What the country produces or exports</p></div>
+        <div class="item"><h4>Geography</h4><img src="file:///Users/aibo/Downloads/tierra.png" alt="Culture icon" class="icono" >
+             <p class="yo">Where the country is positioned in the world</p></div>
+        <div class="item"><h4>Attractions</h4><img src="file:///Users/aibo/Downloads/maps-and-location.png" alt="Culture icon" class="icono" >
+            <p class="yo">Must-see locations</p></div>
+          <div id="body"></div>
+          <p><input type="number" placeholder="type your age" onkeyup="showAlert(this)" /></p>
+
+     <article>
+        <aside class="barra-lateral">
+            <h2><i>Did you know?</i></h2>
+            <p><i>No poisonous snakes or insects in the island. Locals have mailboxes to receive loaves of bread instead of mails. One coral atoll is a vineyard. Visit my porfolio to know me better!</i></p>
+            <a href="https://sites.google.com/view/sgdatanalytics/inicio?authuser=0" class="button" target="_blank" rel="noopener noreferrer" aria-label="Visit my portfolio">Portfolio </a>
+        </aside>
+    </article>
+     </div> 
+</main>
+</body>
+<footer>
+    <p style="text-align: center; color: white; background-color:#6c2fd613; margin:20px;">&copy; 2026 Silvia Guerra</p>
+    <div class="redes">
+    <a href="https://instagram.com/silvi_014" target="_blank">Instagram</a>
+    <a href="https://linkedin.com/in/silvia-guerra-2a94261a9/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/Silvia014" target="_blank">GitHub</a>
+</div>
+</footer>       
+</html>
