@@ -64,8 +64,6 @@ font-family:Arial, Helvetica, sans-serif;
 
 }
 
-/* NAV */
-
 .navbar{
 
 height:70px;
@@ -94,19 +92,6 @@ color:rgb(211, 42, 123);
 
 }
 
-.navbar input{
-
-padding:10px;
-
-border-radius:10px;
-
-border:1px solid #ddd;
-
-}
-
-
-
-/* CONTENEDOR */
 
 
 .instagram{
