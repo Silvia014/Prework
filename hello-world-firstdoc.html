@@ -7,12 +7,12 @@
         <style>
             nav {
                 background-color: #07378000;
-                padding: 10px;
+                padding: 30px;
                 text-align: right;
             }
             nav ul {
-                margin: 0;
-                padding: 0;
+                margin: 10px;
+                padding: 0px;
             }
             nav ul li {
                 list-style: none;
@@ -30,8 +30,8 @@
                 color:    #073780ae;
                 font-size: 1rem;}
             .barra-lateral {
-               position:absolute;
-               top:50px;
+               position:fixed;
+               top:100px;
                right:10px;
                width: 200px;
                background-color: #07378000;
@@ -47,7 +47,7 @@
             }
             nav ul li a:hover {
                 text-decoration: underline overline;
-                background-color: #0737805e;
+                background-color: #0737809d;
                 cursor: pointer;   
             }
             .logo {
@@ -56,12 +56,12 @@
                 margin-top: -30px;
             }
             nav .barra-lateral {
-                position: absolute;
+                position: fixed;
                 top: 0;
                 right: 0;
                 width: 200px;
                 height: 100%;
-                background-color: #073780;
+                background-color: #06306f;
                 padding: 20px;
                 box-sizing: border-box;
             }
@@ -111,14 +111,18 @@ h3 {
 }
 .center-content {
     display: table;
-    text-align: center;
+    text-align: justify;
     color: white;
-    background-color: #0737807a;
+    background-color: #07378098;
     margin: 10px auto;
-    flex-direction: column;
+    font-size: 20px;
+
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin-bottom: 20px auto;
 }
 .center-content ol, ul {
     list-style-position: inside;
